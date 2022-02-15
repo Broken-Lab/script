@@ -19,7 +19,7 @@ then
   echo -e "Creating Radiant Directory"
   mkdir cipher && cd cipher
   Syncing CipherOS Sources
-  repo init -u https://github.com/CipherOS/manifest -b twelve
+  repo init --depth 1 -u https://github.com/CipherOS/manifest -b twelve
   repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags -v
   echo -e "Cloning Beryllium Radiant Trees"
   git clone https://github.com/resist15/android_device_xiaomi_beryllium -b twelve device/xiaomi/beryllium    
