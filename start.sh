@@ -7,10 +7,10 @@ then
   repo init -u https://github.com/ProjectRadiant/manifest -b twelve
   repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags -v
   echo -e "Cloning Beryllium Radiant Trees"
-  git clone https://github.com/RadiantDevices/device_xiaomi_beryllium device/xiaomi/beryllium
-  git clone https://github.com/RadiantDevices/device_xiaomi_sdm845-common device/xiaomi/sdm845-common
-  git clone --depth 1 https://github.com/RadiantDevices/vendor_xiaomi_beryllium vendor/xiaomi
-  git clone --depth 1 -b twelve https://github.com/PainKiller3/kernel_xiaomi_sdm845.git kernel/xiaomi/sdm845
+#   git clone https://github.com/RadiantDevices/device_xiaomi_beryllium device/xiaomi/beryllium
+#   git clone https://github.com/RadiantDevices/device_xiaomi_sdm845-common device/xiaomi/sdm845-common
+#   git clone --depth 1 https://github.com/RadiantDevices/vendor_xiaomi_beryllium vendor/xiaomi
+#   git clone --depth 1 -b twelve https://github.com/PainKiller3/kernel_xiaomi_sdm845.git kernel/xiaomi/sdm845
   curl -sL https://gist.githubusercontent.com/resist15/5cfd6138eb138abb94541af2a7fa46fa/raw/4b851c9d802129c4c4fab7eb6581ea59668002a5/resist15.sh | bash
 elif [[ $ROM -eq 2 ]]
 then
