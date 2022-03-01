@@ -8,4 +8,6 @@ cd script
 chmod +x *
 #execute
 execute any script .eg : bash clean.sh
+#alternate method -
+bash <(curl -sL https://raw.githubusercontent.com/Broken-Lab/script/master/clean.sh)
 ```
