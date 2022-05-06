@@ -35,14 +35,14 @@ gcl varunhardgamer/trb_clang prebuilts/clang/host/linux-x86/clang-custom 1 14
 
 # HALS and HW
 
-del hardware/qcom-caf/sdm845/audio
-del hardware/qcom-caf/sdm845/display
-del hardware/qcom-caf/sdm845/media
+# del hardware/qcom-caf/sdm845/audio
+# del hardware/qcom-caf/sdm845/display
+# del hardware/qcom-caf/sdm845/media
 
 gc ArrowOS-Devices/android_hardware_xiaomi hardware/xiaomi twelve
 
-gc ArrowOS/android_hardware_qcom-caf_sdm845_audio hardware/qcom-caf/sdm845/audio arrow-12.0-caf-sdm845
-gc ArrowOS/android_hardware_qcom-caf_sdm845_display hardware/qcom-caf/sdm845/display arrow-12.0-caf-sdm845
-gc ArrowOS//android_hardware_qcom-caf_sdm845_media hardware/qcom-caf/sdm845/media arrow-12.0-caf-sdm845
+# gc ArrowOS/android_hardware_qcom-caf_sdm845_audio hardware/qcom-caf/sdm845/audio arrow-12.0-caf-sdm845
+# gc ArrowOS/android_hardware_qcom-caf_sdm845_display hardware/qcom-caf/sdm845/display arrow-12.0-caf-sdm845
+# gc ArrowOS//android_hardware_qcom-caf_sdm845_media hardware/qcom-caf/sdm845/media arrow-12.0-caf-sdm845
 
 cd ..
